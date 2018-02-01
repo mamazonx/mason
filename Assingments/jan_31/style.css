@@ -1,4 +1,15 @@
 h2{
-    font: semi-expanded; color: darkblue; font-size: large}
+    font: semi-expanded; color: darkblue; font-size: xx-large; }
 h3{
-    font: semi-expanded; color: darkblue; font-size: large}
+    font: semi-expanded; color: darkblue; font-size: xx-large}
+image{
+    margin-left: auto; margin-right: auto}
+ul{
+    font-size: large; font: message-box; font: bold; border-width: medium; border-style: outset; max-width: 360px;}
+
+p{
+    font-size: large; font: message-box; border-width: medium; border-style: outset }
+
+body{background: darkgreen;
+    background-image: url("https://wallpapercave.com/wp/1Ve58wi.jpg");
+    background-repeat: repeat-y;}
