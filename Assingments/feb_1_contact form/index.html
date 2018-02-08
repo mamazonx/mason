@@ -5,21 +5,25 @@
     <title>Title</title>
 </head>
 <body>
-Name: <input type="text" name="name" value="<?php echo $name;?>">
 
-E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+<form action="index.html" method="post">
+</form>
 
-Website: <input type="text" name="website" value="<?php echo $website;?>">
+<h2>Contact Form</h2>
+<p><span class="error">* required field.</span></p>
 
-Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+Name: <input type="text" name="name" >
+<span class="error">*
+<br><br>
+E-mail: <input type="text" name="email" >
+<span class="error">*
+<br><br>
+Phone <input type="text" name="phonen" >
+<span class="error">*
+<br><br>
+Comment: <textarea name="comment" rows="5" cols="40" name="comment"></textarea>
 
-Gender:
-<input type="radio" name="gender"
-<?php if (isset($gender) && $gender=="female") echo "checked";?>
-value="female">Female
-<input type="radio" name="gender"
-<?php if (isset($gender) && $gender=="male") echo "checked";?>
-value="male">Male
-
+    <input type="reset" name="reset">
+    <input type="submit" name="submit">
 </body>
 </html>
