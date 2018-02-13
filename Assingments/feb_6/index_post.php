@@ -5,15 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <title>contact form</title>
-<link href="endpoint.php" rel="php">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-        <form action="index.php" method="get" >
-        </form>
-        <form action="endpoint.php" method="post">
-        </form>
+
+<form action="endpoint_get.php" method="get">
+</form>
 
 <h2>Contact Form</h2>
 <p><span class="error">* required field.</span></p>
