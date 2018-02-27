@@ -11,7 +11,6 @@
 <body>
 
 <form action="endpoint_get.php" method="get">
-</form>
 
 <h2>Contact Form</h2>
 <p><span class="error">* required field.</span></p>
@@ -29,6 +28,10 @@ Comment: <textarea name="comment" rows="5" cols="40" id="comment"></textarea>
 
 <input type="reset" name="reset" id="reset">
 <input type="submit" name="submit" id="submit">
+</form>
+
+
 
 </body>
+
 </html>

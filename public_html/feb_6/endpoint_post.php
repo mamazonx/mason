@@ -12,8 +12,6 @@
  * Date: 2/12/2018
  * Time: 8:57 PM
  */
-<link href="style.css" rel="stylesheet">
-
 if (isset($_POST['name'], $_POST['email'], $_POST['phone'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
