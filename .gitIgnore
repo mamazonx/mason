@@ -1,2 +1,4 @@
 PhpStorm 2017.3.3
 .idea
+.env
+env.php
